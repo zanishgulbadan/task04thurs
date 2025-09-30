@@ -628,13 +628,13 @@ form {
   margin-top: 40px;
 }
 
-/* LEFT PART (fixed width sidebar) */
+
 .left-part {
   width: 25%;
   background-color: white;
 }
 
-/* Title */
+
 .sidebar-title {
   font-size: 20px;
   font-weight: bold;
@@ -645,10 +645,10 @@ form {
 
 .sidebar-title span {
   color: #800000;
-  /* maroon */
+ 
 }
 
-/* Practice Areas List */
+
 .practice-list {
   list-style: none;
   padding: 0;
@@ -662,9 +662,9 @@ form {
 .practice-list a {
   display: flex;
   flex-direction: column;
-  /* heading top, learn more bottom */
+  
   background: rgb(117, 112, 112);
-  /* grey */
+  
   color: #fff;
   padding: 16px;
   font-weight: bold;
@@ -673,12 +673,12 @@ form {
   text-transform: uppercase;
   text-decoration: none;
   border-left: 10px solid #800000;
-  /* maroon left bar */
+ 
 }
 
 .practice-list a span {
   color: white;
-  /* keep Learn More text black */
+ 
   font-size: 12px;
   font-weight: bold;
   margin-top: 5px;
@@ -690,11 +690,11 @@ form {
 
 .practice-list a span .arrow {
   color: #800000;
-  /* arrow in maroon */
+  
   margin-left: 5px;
 }
 
-/* "Learn More About" title */
+
 .learn-more-title {
   font-size: 20px;
   font-weight: bold;
@@ -703,15 +703,15 @@ form {
 
 .learn-more-title .maroon {
   color: hsl(0, 100%, 25%);
-  /* LEARN about */
+ 
 }
 
 .learn-more-title .black {
   color: black;
-  /* more */
+ 
 }
 
-/* Menu box */
+
 .menu-box {
   margin-top: 100px;
   margin-left: 120px;
@@ -723,7 +723,7 @@ form {
   font-weight: bold;
   color: grey;
   margin: 15px 0;
-  /* spacing between MENU, AREA, HERE */
+
 }
 
 .footer {
@@ -784,13 +784,13 @@ form {
 
 .right-box h3 .black {
   color: #000;
-  /* Black for first line */
+  
 
 }
 
 .right-box h3 .red {
   color: #a10000;
-  /* Maroon for second line */
+ 
 }
 
 .right-box p {
@@ -801,7 +801,7 @@ form {
 
 }
 
-/* CTA Button + Divider */
+
 .cta-row {
   display: flex;
   flex-direction: column;
@@ -814,10 +814,10 @@ form {
 
 .hr-img img {
   width: 100%;
-  /* reduced size */
+ 
   height: auto;
   margin: 0 auto 8px;
-  /* center & spacing */
+  
   display: block;
   margin-top: 30px;
 
@@ -832,7 +832,7 @@ form {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  /* space between text and arrow */
+ 
   margin-top: -8px;
   margin-left: 70px;
 
@@ -844,11 +844,11 @@ form {
 
 .arrow-icon {
   width: 10px;
-  /* small arrow like screenshot */
+ 
   height: auto;
 }
 
-/* Badges */
+
 .badges {
   text-align: center;
 }
@@ -860,7 +860,7 @@ form {
   margin-right: 65px;
 }
 
-/* Social Icons */
+
 .social h3 {
   font-size: 20px;
   margin-bottom: 10px;
@@ -896,10 +896,10 @@ form {
 
 .hr-img {
   width: 100%;
-  /* reduced size */
+  
   height: auto;
   margin: 0 auto 8px;
-  /* center & spacing */
+ 
   display: block;
   margin-left: -10px;
 
@@ -1013,7 +1013,6 @@ form {
     border-bottom: 1px solid #eee;
   }
 
-  /* fix absolute or left offsets used in desktop */
   .dui-image img,
   .cert-btn,
   .cert-heading,
@@ -1127,7 +1126,7 @@ form {
   }
 }
 
-/* ---------- Small tablets / large phones (768px) ---------- */
+
 @media (max-width: 768px) {
   .phone-no {
     font-size: 44px;
@@ -1178,7 +1177,7 @@ form {
   }
 }
 
-/* ---------- Phones (max-width: 480px) - primary mobile layout ---------- */
+
 @media (max-width: 480px) {
 
   html,
@@ -1194,7 +1193,6 @@ form {
     padding: 8px 6px;
   }
 
-  /* Top / Header */
   .top-bar {
     flex-direction: column;
     align-items: center;
@@ -1228,7 +1226,7 @@ form {
     padding: 6px 10px;
   }
 
-  /* Navigation */
+ 
   .nav-bar ul {
     flex-direction: column;
     gap: 6px;
@@ -1240,7 +1238,6 @@ form {
     text-align: center;
   }
 
-  /* Content: stack panels */
   .content-box {
     flex-direction: column;
     margin: 0.6rem;
@@ -1258,7 +1255,7 @@ form {
     display: block;
   }
 
-  /* Form: inputs full width, labels above */
+  
   .form-wrapper {
     display: block;
     margin: 0;
@@ -1296,7 +1293,7 @@ form {
     display: none;
   }
 
-  /* hide decorative rotated image on phones */
+
   .text-area textarea {
     width: calc(100% - 20px);
     margin: 8px 10px;
@@ -1324,7 +1321,7 @@ form {
     align-items: center;
   }
 
-  /* Three sections stack */
+
   .three-sections {
     display: block;
     padding: 10px;
@@ -1336,7 +1333,7 @@ form {
     padding: 8px 6px;
   }
 
-  /* Fix DUI image and CTA on phones */
+  
   .dui-image img {
     position: static !important;
     top: auto !important;
@@ -1357,7 +1354,7 @@ form {
     display: inline-block;
   }
 
-  /* Law blog / case results */
+  
   .law-box {
     flex-direction: column;
     align-items: center;
@@ -1370,7 +1367,6 @@ form {
     margin: 0 auto;
   }
 
-  /* Certificates */
   .cert-images {
     justify-content: center;
     left: 0;
@@ -1396,7 +1392,7 @@ form {
     position: static;
   }
 
-  /* Footer columns -> stacked */
+ 
   .footer {
     flex-direction: column;
     gap: 14px;
