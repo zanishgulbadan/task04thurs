@@ -986,7 +986,8 @@ form {
 
   .right-panel form input {
     width: calc(100% - 32px);
-    margin-left: 16px;
+    
+
   }
 
   .conf-img {
@@ -999,6 +1000,7 @@ form {
   .text-area textarea {
     width: calc(100% - 40px);
     margin: 0 20px 10px;
+    margin-left: 20px;
   }
 
   .three-sections {
@@ -1247,6 +1249,7 @@ form {
   .right-panel {
     width: 100%;
     box-shadow: none;
+    
   }
 
   .left-panel img {
@@ -1260,6 +1263,7 @@ form {
     display: block;
     margin: 0;
     padding: 0 10px;
+  
   }
 
   .inputs-area {
@@ -1285,7 +1289,7 @@ form {
 
   .right-panel form input {
     width: calc(100% - 20px);
-    margin-left: 0;
+    
     padding: 8px;
   }
 
@@ -1295,8 +1299,9 @@ form {
 
 
   .text-area textarea {
-    width: calc(100% - 20px);
-    margin: 8px 10px;
+   max-width: 300px;
+    margin-left: -10px;
+
   }
 
   .form-footer {
@@ -1377,7 +1382,7 @@ form {
   .cert-heading {
     left: 0;
     text-align: center;
-    margin-left: 0;
+    margin-left: -20px;
   }
 
   .cert-paragraph {
@@ -1403,7 +1408,7 @@ form {
   .middle-part,
   .right-part {
     width: 100%;
-    background: transparent;
+    background: ;
     padding: 8px 0;
   }
 
@@ -1413,9 +1418,11 @@ form {
   }
 
   .practice-list a {
-    max-width: 100%;
+    max-width: 90%;
     border-left-width: 8px;
-    padding: 12px;
+    padding: 5px;
+    margin-left: 5px;
+  
   }
 
   .learn-more-title {
@@ -1439,7 +1446,7 @@ form {
     padding: 10px;
     text-align: center;
     border: none;
-    background: transparent;
+    background: white;
   }
 
   .right-box h3 {
@@ -1450,16 +1457,19 @@ form {
   .right-box p {
     margin-left: 0;
     font-size: 14px;
+    
   }
 
   .hr-img {
-    width: 75%;
-    margin: 10px auto;
+    width: 50%;
+
     display: block;
+    
   }
 
   .cta-btn {
     margin: 6px auto 0;
+    margin-top: -6px;
   }
 
   .badges {
@@ -1467,8 +1477,9 @@ form {
   }
 
   .badge-img {
-    max-width: 110px;
-    margin: 0 6px;
+    max-width: 300px;
+
+    margin-left: 120px;
   }
 
   /* Social icons */
