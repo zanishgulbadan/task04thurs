@@ -813,13 +813,15 @@ form {
 }
 
 .hr-img img {
-  width: 100%;
+  width: 50%;
  
   height: auto;
-  margin: 0 auto 8px;
+  margin: 0 auto 10px;
   
   display: block;
   margin-top: 30px;
+  
+
 
 }
 
@@ -834,7 +836,7 @@ form {
   gap: 5px;
  
   margin-top: -8px;
-  margin-left: 70px;
+  margin-left: 150px;
 
 }
 
@@ -857,7 +859,7 @@ form {
   display: block;
   margin: 30px auto;
   max-width: 150px;
-  margin-right: 65px;
+  margin-right: 140px;
 }
 
 
@@ -1000,7 +1002,7 @@ form {
   .text-area textarea {
     width: calc(100% - 40px);
     margin: 0 20px 10px;
-    margin-left: 20px;
+    margin-left: -10px;
   }
 
   .three-sections {
@@ -1020,11 +1022,11 @@ form {
   .cert-heading,
   .cert-paragraph,
   .cert-images {
-    position: static !important;
-    left: auto !important;
-    top: auto !important;
-    margin: 10px auto !important;
-    display: block !important;
+    position: static ;
+    left: auto;
+    top: auto ;
+    margin: 10px auto;
+    display: block;
   }
 
   .dui-cta-row {
@@ -1088,18 +1090,19 @@ form {
   }
 
   .practice-list a {
-    max-width: 100%;
+    max-width: 80%;
     padding: 12px;
+    margin-left: 5px;
   }
 
   .menu-box {
-    margin-left: 0;
+    margin-left: 150px;
     margin-top: 10px;
     padding: 12px;
   }
 
   .right-box {
-    padding: 12px;
+    padding: 10px;
   }
 
   .right-box h3,
@@ -1114,7 +1117,7 @@ form {
   }
 
   .cta-btn {
-    margin-left: 0;
+    
   }
 
   .social h3 {
@@ -1340,9 +1343,9 @@ form {
 
   
   .dui-image img {
-    position: static !important;
-    top: auto !important;
-    left: auto !important;
+    position: static ;
+    top: auto ;
+    left: auto ;
     width: 110px;
     margin: 8px auto;
     display: block;
@@ -1351,6 +1354,7 @@ form {
   .dui-hr {
     width: 70%;
     margin: 8px auto;
+    
   }
 
   .dui-cta {
@@ -1462,6 +1466,7 @@ form {
 
   .hr-img {
     width: 50%;
+    
 
     display: block;
     
